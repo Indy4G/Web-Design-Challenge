@@ -1,13 +1,48 @@
 .navbar {
-    background: black;
-  }
+    background: rgb(41, 194, 255);
+}
+
+#home-button {
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.dropdown-menu {
+    background: rgb(41, 194, 255);
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-text {
+    color: white;
+}
+
+#b {
+    visibility: hidden;
+}
 
 @media (max-width: 992px) {
     .navbar {
       background: grey;
     }
+
+    #a {
+        display: none;
+    }
+
+    #b {
+        visibility: visible;
+    }
 }
 
-h1 {
-    color: #000000;
+.table-responsive {
+    overflow-x:auto; 
+    overflow-y:auto; 
+    max-height:800px;
 }
