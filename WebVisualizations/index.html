@@ -12,33 +12,28 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" 
-                href="index.html"
-                style="color:white">
-                Lattitude</a>
-            </div>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar1">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="dropdown px-2">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white">Plots
-                    
-                    <ul class="dropdown-menu">
-                        <li><a href="MaxTemp.html" style="color:black">Max Temperature</a></li>
-                        <li><a href="Humidity.html" style="color:black">Humidity</a></li>
-                        <li><a href="Cloudiness.html" style="color:black">Cloudiness</a></li>
-                        <li><a href="WindSpeed.html" style="color:black">Wind Speed</a></li>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><span id="home-button">Lattitude</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown"><span class="nav-text">Plots</span></a>
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="MaxTemp.html"><span class="nav-text">Max Temperature</span></a>
+                                <a class="dropdown-item" href="Humidity.html"><span class="nav-text">Humidity</span></a>
+                                <a class="dropdown-item" href="Cloudiness.html"><span class="nav-text">Cloudiness</span></a>
+                                <a class="dropdown-item" href="WindSpeed.html"><span class="nav-text">Wind Speed</span></a>
+                            </ul>
+                        </li>
+                        <li><a class="nav-item" href="Comparison.html">Comparison</a></li>
+                        <li><a class="nav-item" href="Data.html">Data</a></li>
                     </ul>
-                    </li>
-                    <li><a class="nav-item px-2" href="Comparison.html" style="color:white">Comparison</a></li>
-                    <li><a class="nav-item px-2" href="Data.html" style="color:white">Data</a></li>
-                </ul>
+                </div>
             </div>
         </nav>
         </br>
@@ -124,6 +119,7 @@
                 </div>
             </div>
         </div>
-    </div>
-</body>
+        </br>
+        </br>
+    </body>
 </html>
